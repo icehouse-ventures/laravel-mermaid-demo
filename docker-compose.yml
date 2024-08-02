@@ -1,0 +1,26 @@
+services:
+  apache:
+    build:
+      context: ./docker/apache
+      args:
+        - APP_ENV=${APP_ENV}
+    container_name: laravel-mermaid-apache
+    environment:
+      - APP_ENV=${APP_ENV}
+      - COMPOSER_MEMORY_LIMIT=4G
+    ports:
+      - 80:80
+    labels:
+      - dev.orbstack.domains=laravel-mermaid.local
+    networks:
+      - laravel-mermaid-network
+    volumes:
+      - .:/var/www/html
+    working_dir: /var/www/html
+
+volumes:
+  laravel-mermaid-composer:
+
+networks:
+  laravel-mermaid-network:
+    driver: bridge
