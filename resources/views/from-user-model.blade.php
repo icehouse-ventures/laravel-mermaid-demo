@@ -22,7 +22,7 @@
         
         <div class="container">
             <div class="example">
-                <h2>Generated from User model</h2>
+                <h2>Diagram Generated from User model</h2>
                 <x-mermaid::component :data="$mermaid" />
             </div>
         </div>

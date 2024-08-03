@@ -7,7 +7,7 @@
     </div>
 
     <div>
-        <h1>Fund structure</h1>
+        <h1>Business Structure Diagram</h1>
 
         <x-mermaid::livewire-component wire:model="mermaid" />
     </div>

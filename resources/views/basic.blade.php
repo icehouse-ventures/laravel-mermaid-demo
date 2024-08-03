@@ -22,6 +22,7 @@
         
         <div class="container">
             <div class="example">
+                <h2>Basic Mermaid Diagram</h2>
                 <x-mermaid::component :data="$mermaid" />
             </div>
         </div>

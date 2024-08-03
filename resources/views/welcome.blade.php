@@ -33,10 +33,10 @@
                             <div class="relative flex items-center gap-6 lg:items-end">
                                 <div id="docs-card-content" class="flex items-start gap-6 lg:flex-col">
                                     <div class="pt-3 sm:pt-5 lg:pt-0">
-                                        <h2 class="text-xl font-semibold text-black dark:text-white">Examples</h2>
+                                        <h2 class="text-xl font-semibold text-black dark:text-white">Laravel Mermaid Diagram Examples</h2>
 
                                         <ul class="mt-4 text-sm/relaxed" style="list-style: disc; padding: 0 0 0 24px;">
-                                            <li><a href="/basic">Basic examples</a></li>
+                                            <li><a href="/basic">Basic Mermaid Diagram Example</a></li>
                                             <li><a href="/from-user-model">Generated from Eloquent collection</a></li>
                                             <li><a href="/livewire-users">Generated from Eloquent collection <span style="background: #fb70a9; padding: 1px 5px; border-radius: 3px; color: #f1f5f9; display: inline-block;">plus Livewire interaction</span></a></li>
                                             <li><a href="/livewire-depth">Exploring depth <span style="background: #fb70a9; padding: 1px 5px; border-radius: 3px; color: #f1f5f9; display: inline-block;">via Livewire</span></a></li>
