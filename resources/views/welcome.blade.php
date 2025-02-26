@@ -36,11 +36,11 @@
                                         <h2 class="text-xl font-semibold text-black dark:text-white">Laravel Mermaid Diagram Examples</h2>
 
                                         <ul class="mt-4 text-sm/relaxed" style="list-style: disc; padding: 0 0 0 24px;">
-                                            <li><a href="/basic">Basic Mermaid Diagram Example</a></li>
-                                            <li><a href="/from-user-model">Generated from Eloquent collection</a></li>
-                                            <li><a href="/livewire-users">Generated from Eloquent collection <span style="background: #fb70a9; padding: 1px 5px; border-radius: 3px; color: #f1f5f9; display: inline-block;">plus Livewire interaction</span></a></li>
-                                            <li><a href="/livewire-depth">Exploring depth <span style="background: #fb70a9; padding: 1px 5px; border-radius: 3px; color: #f1f5f9; display: inline-block;">via Livewire</span></a></li>
-                                            <li><a href="/livewire-verbosity">Increasing verbosity <span style="background: #fb70a9; padding: 1px 5px; border-radius: 3px; color: #f1f5f9; display: inline-block;">via Livewire</span></a></li>
+                                            <li class="mt-4"><a href="/basic">Basic Mermaid Diagram Example</a></li>
+                                            <li class="mt-4"><a href="/from-user-model">Generated from Eloquent collection</a></li>
+                                            <li class="mt-4"><a href="/livewire-users">Generated from Eloquent collection <span style="background: #fb70a9; padding: 1px 5px; border-radius: 3px; color: #f1f5f9; display: inline-block; margin-left: 3px;">plus Livewire interaction</span></a></li>
+                                            <li class="mt-4"><a href="/livewire-depth">Interactive Diagram with Variable "depth"<span style="background: #fb70a9; padding: 1px 5px; border-radius: 3px; color: #f1f5f9; display: inline-block; margin-left: 3px;">via Livewire</span></a></li>
+                                            <li class="mt-4"><a href="/livewire-verbosity">Interactive Diagram with Virable "verbosity" <span style="background: #fb70a9; padding: 1px 5px; border-radius: 3px; color: #f1f5f9; display: inline-block; margin-left: 3px;">via Livewire</span></a></li>
                                         </ul>
                                     </div>
                                 </div>
